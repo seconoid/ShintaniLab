@@ -11,76 +11,62 @@
 		<script src="js/html5shiv.js"></script>
 		<script src="js/respond.min.js"></script>
 	<![endif]-->
-	<title>新谷研究所</title>
+	<title>新谷研究室</title>
 </head>
 <body>
-	<!-- header -->
-	<header>
-		<!-- logo -->
-		<h1>新谷研究所</h1>
-		<!-- navi -->
-		<nav class="navbar navbar-default navbar-inverse" role="navigation">
-	        <div class="container-fluid">
-
-	          <!-- スマートフォンサイズで表示されるメニューボタンとテキスト -->
-	          <div class="navbar-header">
-
-	            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-menu-4">
-	              <span class="sr-only">Toggle navigation</span>
-	              <span class="icon-bar"></span>
-	              <span class="icon-bar"></span>
-	              <span class="icon-bar"></span>
-	            </button>
-	          </div>
-
-	          <!-- グローバルナビの中身 -->
-	          <div class="collapse navbar-collapse" id="nav-menu-4">
-	            
-	            <!-- 各ナビゲーションメニュー -->
-	            <ul class="nav navbar-nav">
-
-	              <!-- 通常のリンク -->
-	              <li><a href="./about.html">研究内容</a></li>
-	              <li class="active"><a href="./member.html">メンバー紹介</a></li>
-	              <li><a href="#">授業用ページ</a></li>
-	              <li><a href="#">新谷研希望の皆様へ</a></li>
-	              <li><a href="#">ニュース</a></li>
-
-	              <!-- ドロップダウンのメニューも配置可能 -->
-	              <!--
-	              <li class="dropdown">
-	                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-	                <ul class="dropdown-menu">
-	                  <li><a href="#">Action</a></li>
-	                  <li><a href="#">Another action</a></li>
-	                  <li><a href="#">Something else here</a></li>
-	                  <li class="divider"></li>
-	                  <li><a href="#">Separated link</a></li>
-	                  <li class="divider"></li>
-	                  <li><a href="#">One more separated link</a></li>
-	                </ul>
-	              </li>
-	          	  -->
-
-	            </ul>
+	<div class="wrapper">
+		<!-- ヘッダ -->
+		<header>
+			<div class="header">
+				<div class="row">
+					<div class="col-xs-4">
+						<!-- ロゴ -->
+						<a href="./index.html" class="logo"><img src="images/logo.png" alt="ロゴ"></a>
+					</div>
+					<div class="col-xs-offset-4 col-xs-2">
+						<p><a href="#">▶サイトマップ</a></p>
+					</div>
+					<div class="col-xs-2">
+						<p><a href="#">▶お問い合わせ</a></p>
+					</div>
+				</div>
+			</div>
+			<!-- グローバルナビ -->
+			<nav class="navbar navbar-default navbar-inverse" role="navigation">
+				<div class="container">
+					<ul class="nav navbar-nav">
+						<ul class="nav navbar-nav">
+							<!-- ナビメニュー -->
+							<li><a href="./about.html">概要</a></li>
+							<li><a href="#">研究内容</a></li>
+							<li><a href="./member.html">メンバー</a></li>
+							<li><a href="#">研究業績</a></li>
+							<li><a href="#">配属希望の方へ</a></li>
+							<li><a href="#">ニュース</a></li>
+						</ul>
+				</div>
+		    </nav>
+		</header>
 
 
-	          </div>
-	        </div>
-	    </nav>
-	</header>
-	<div class="content center-block">
-		<h2>メンバー紹介</h2>
-		<div class="person">
-			<h3>教授</h3>
-			<h3>助教</h3>
-			<h3>博士前期課程</h3>
-			<h3>卒研生 新谷研究室</h3>
+		<!-- コンテンツ部 -->
+		<div class="container">
+			<h2>メンバー紹介</h2>
+			<div class="person">
+				<h3>教授</h3>
+				<h3>院生</h3>
+				<h3>部生</h3>
+			</div>
 		</div>
+		<footer>
+			<div class="container">
+				<p class="pos-left">Copyright(C) 2003-20015 Shintani Laboratory All Rights Reserved.</p>
+			</div>
+		</footer>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<!-- <script src="js/common.js"></script> -->
+	<script src="js/common.js"></script>
 </body>
 </html>
