@@ -17,13 +17,13 @@ h1, h2, h3, ul {
 	width: 980px;
 }
 .header {
-	height: 60px;
+	height: 80px;
 	margin: 0 auto;
 	width: 980px;
 }
 
 .header p{
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 .nav {
@@ -68,11 +68,23 @@ h4 {
 	margin: 10px 20px;
 }
 
-.mv {
-	background: #222;
+.slider {
 	width: 980px;
 	height: 300px;
+	overflow: hidden;
+	position: relative;
 	margin-bottom: 30px;
+}
+
+.slider .slideSet {
+	position: absolute;
+}
+
+.slider .slide {
+	width: 980px;
+	height: 300px;
+	border: 1px solid #aaa;
+	float: left;
 }
 
 .top_h3 {
